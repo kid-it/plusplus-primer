@@ -7,10 +7,11 @@ struct person {
     std::string name;
     std::string address;
 
-    /* name is const - address is not. 
-    This is becase one can move, but a name cannot change (wihtout consierable paperwork)*/
+    /* both are const - this function should not change the values*/
     std::string who() const {return name;}
-    std::string where() {return address;}
+    std::string where() const {return address;}
+
+
 };
 
 #endif
