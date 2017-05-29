@@ -1,0 +1,7 @@
+When should reference parameters be references to const? 
+if the function will not modify the arguments
+
+what happens if we make a parameter a plain reference
+when it could be a reference to const? 
+cannot accept literal arguments 
+cannot accept const arguments 
